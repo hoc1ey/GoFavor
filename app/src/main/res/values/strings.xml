@@ -1,3 +1,75 @@
 <resources>
     <string name="app_name">GoFavor</string>
+    <string name="greeting">Hola, otra vez</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="forgot_password"><u>Olvidé mi contraseña</u></string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="or">ó</string>
+    <string name="logo_description">Logotipo de GoFavor</string>
+    <string name="icon_email">Ícono de correo</string>
+    <string name="icon_password">Ícono de contraseña</string>
+
+    <string name="logo_desc">Logo de GoFavor</string>
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="cedula">Cédula de identidad</string>
+    <string name="adjuntar_cedula">Adjuntar Imagen de Cédula</string>
+    <string name="tomar_selfie">Tomar Selfie con Cédula</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_contrasena">Confirmación de contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="icon_user">Ícono de usuario</string>
+
+    <string name="icon_id">Ícono de cédula</string>
+    <string name="icon_attach">Ícono de adjuntar cédula</string>
+    <string name="icon_camera">Ícono de cámara</string>
+    <string name="icon_lock">Ícono de contraseña</string>
+    <string name="icon_back">Atrás</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="icon_request">Solicitud enviada</string>
+    <string name="solicitud_enviada">Solicitud de favor enviada</string>
+    <string name="icon_check">Confirmación</string>
+    <string name="favor_completado">Confirmación de favor completado</string>
+    <string name="icon_message">Mensaje nuevo</string>
+    <string name="nuevo_mensaje">Tienes un nuevo mensaje</string>
+    <string name="icon_payment">Pago</string>
+    <string name="pago_realizado">Pago realizado</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="nombre_colaborador">Colaborador Caleb</string>
+    <string name="ciudad_colaborador">Quito</string>
+
+    <string name="favores_realizados">Favores Realizados</string>
+    <string name="reputacion">Reputación</string>
+    <string name="ganancias_mensuales">Ganancias Mensuales</string>
+    <string name="favores_solicitados">Favores Solicitados</string>
+
+    <string name="historial_reciente">Historial Reciente</string>
+    <string name="actividad_1">Pasear perro</string>
+    <string name="actividad_2">Recoger paquete</string>
+    <string name="actividad_3">Dar examen</string>
+
+    <string name="actividad_1_dias">3 días</string>
+    <string name="actividad_2_dias">1 día</string>
+    <string name="actividad_3_dias">1 día</string>
+
+    <string name="actividad_1_puntos">+15</string>
+    <string name="actividad_2_puntos">+3</string>
+    <string name="actividad_3_puntos">+16</string>
+
+    <string name="icon_atras">Icono Atrás</string>
+    <string name="icon_menu">Icono Menú</string>
+    <string name="icon_ubicacion">Icono Ubicación</string>
+    <string name="icon_perfil">Imagen de perfil</string>
+
+    <string name="icon_edit">Editar perfil</string>
+    <string name="avatar">Avatar del usuario</string>
+    <string name="ubicacion">Quito</string>
+
+    <string name="tarea_1">Pasear perro</string>
+    <string name="tarea_fecha_1">3 días</string>
+
 </resources>
