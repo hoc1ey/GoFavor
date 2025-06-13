@@ -1,4 +1,9 @@
 <resources>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
     <string name="app_name">GoFavor</string>
     <string name="greeting">Hola, otra vez</string>
     <string name="hint_email">Correo</string>
@@ -13,11 +18,13 @@
 
     <string name="logo_desc">Logo de GoFavor</string>
     <string name="registro">Registro</string>
+    <string name="registrar">Registrar Administrador</string>
     <string name="nombre">Nombre</string>
     <string name="apellido">Apellido</string>
     <string name="correo">Correo Electrónico</string>
     <string name="cedula">Cédula de identidad</string>
     <string name="adjuntar_cedula">Adjuntar Imagen de Cédula</string>
+    <string name="adjuntar_perfil">Adjuntar Imagen de Perfil</string>
     <string name="tomar_selfie">Tomar Selfie con Cédula</string>
     <string name="contrasena">Contraseña</string>
     <string name="confirmar_contrasena">Confirmación de contraseña</string>
@@ -404,5 +411,258 @@
     <string name="_5">+5</string>
     <string name="_7">-7</string>
 
-</resources>
 
+    <string name="retiro">Retiro</string>
+    <string name="icon_money">Icono de dinero</string>
+
+    <string name="subir_comprobante">Subir Comprobante</string>
+    <string name="aprobar">Aprobar</string>
+    <string name="rechazar">Rechazar</string>
+
+    <!-- Título -->
+    <string name="title_retiro">Retiro</string>
+    <string name="administracion_retiros">Administración de Retiros</string>
+    <string name="monto_a_retirar">Monto a retirar: %1$s</string>
+    <!-- Bancos -->
+    <string name="banco_pichincha">Banco Pichincha C.A.</string>
+    <string name="banco_guayaquil">Banco Guayaquil S.A.</string>
+    <!-- Labels -->
+    <string name="label_nombre">Nombre</string>
+    <string name="label_monto">Monto</string>
+    <string name="label_institucion">Institución</string>
+    <string name="label_num_cuenta">Número de Cuenta</string>
+    <string name="label_cedula">Cédula</string>
+    <string name="label_tipo">Tipo</string>
+    <string name="label_titular">Nombre del Titular</string>
+
+    <!-- Placeholders / valores -->
+    <string name="value_nombre">Nombre</string>
+    <string name="value_valor">Valor</string>
+
+    <!-- Botones -->
+    <string name="btn_subir">Subir Comprobante</string>
+    <string name="btn_aprobar">Aprobar</string>
+    <string name="btn_rechazar">Rechazar</string>
+    <string name="pendiente">Pendientes</string>
+    <string name="rechazado">Rechazadas</string>
+    <string name="realizadas">Realizadas</string>
+    <string name="AdminPerfil">Administración
+de Perfiles</string>
+    <!-- Título de la pantalla -->
+    <string name="title_perfiles">Administración de Perfiles</string>
+
+    <!-- Toggles -->
+    <string name="toggle_pendientes">Pendientes</string>
+    <string name="toggle_realizadas">Realizadas</string>
+    <string name="toggle_rechazadas">Rechazadas</string>
+
+    <!-- Perfil 1 -->
+    <string name="profile1_name">Caleb Castro</string>
+    <string name="profile1_phone">1234567890</string>
+    <string name="profile1_email">caleb@correo.com</string>
+
+    <!-- Perfil 2 -->
+    <string name="profile2_name">Susana Soria</string>
+    <string name="profile2_phone">0987654321</string>
+    <string name="profile2_email">susana@correo.com</string>
+
+    <!-- Perfil 3 -->
+    <string name="profile3_name">Mar Malek</string>
+    <string name="profile3_phone">1122334455</string>
+    <string name="profile3_email">mar@correo.com</string>
+
+    <!-- Perfil 4 -->
+    <string name="profile4_name">Oscar Ortiz</string>
+    <string name="profile4_phone">112223330</string>
+    <string name="profile4_email">oscar@correo.com</string>
+
+    <!-- Perfil_Administrador -->
+
+    <string name="AD_titulo_perfil">Perfil</string>
+    <string name="AD_etiqueta_nombre">Nombre</string>
+    <string name="AD_etiqueta_apellido">Apellido</string>
+    <string name="AD_etiqueta_correo">Correo electrónico</string>
+    <string name="AD_texto_nombre">Ariel</string>
+    <string name="AD_texto_apellido">Amaguaña</string>
+    <string name="AD_texto_correo">ariel.amaguana@epn.edu.ec</string>
+    <string name="AD_boton_cedula">Ver Cédula de Identidad</string>
+    <string name="AD_boton_selfie">Ver Selfie con la Cédula</string>
+    <string name="AD_motivo_rechazo">Motivo de rechazo:</string>
+    <string name="AD_texto_motivo">Motivo</string>
+    <string name="AD_texto_solicitud">Solicitado el 12/05/2024</string>
+    <string name="AD_boton_aprobar">Aprobar</string>
+    <string name="AD_boton_rechazar">Rechazar</string>
+
+    <!-- Favor y Favor sin ofertas -->
+
+    <string name="FA_titulo_favor">Título del Favor</string>
+    <string name="FA_nombre_usuario">Nombre</string>
+    <string name="FA_etiqueta_cedula">Cédula</string>
+    <string name="FA_etiqueta_correo">Correo Electrónico</string>
+    <string name="FA_estado_disponible">Disponible</string>
+    <string name="FA_descripcion">Descripción:</string>
+    <string name="FA_descripcion_texto">Describe</string>
+    <string name="FA_precio_favor">$8</string>
+    <string name="FA_ubicacion">Ubicación</string>
+    <string name="FA_ubicacion_valor">Nombre</string>
+    <string name="FA_fecha_hora">Fecha y Hora</string>
+    <string name="FA_fecha_hora_valor">Viernes</string>
+    <string name="FA_evidencia">Evidencia a entregar</string>
+    <string name="FA_evidencia_valor">Enviar fotos o videos</string>
+    <string name="FA_contra_oferta">Contra Oferta</string>
+    <string name="FA_aprobar">Aprobar</string>
+    <string name="FA_rechazar">Rechazar</string>
+    <string name="FA_mensaje_sin_oferta">No existen Ofertas</string>
+    <string name="FA_estado_en_proceso">En Proceso</string>
+
+    <!-- Solicitar favores -->
+
+    <string name="SF_titulo">Título</string>
+    <string name="SF_descripcion">Descripción</string>
+    <string name="SF_ubicacion">Ubicación</string>
+    <string name="SF_fecha_hora">Fecha y Hora</string>
+    <string name="SF_recompensa">Recompensa</string>
+    <string name="SF_tipo_evidencia">Tipo de Evidencia:</string>
+    <string name="SF_opcion_foto">Foto</string>
+    <string name="SF_opcion_video">Video</string>
+    <string name="SF_opcion_foto_texto">Foto + Texto</string>
+
+    <!-- Ventana Nueva Cuenta -->
+    <string name="NC_titulo_ventana">Ventana nueva cuenta</string>
+    <string name="NC_banco">Banco</string>
+    <string name="NC_tipo_cuenta">Tipo de cuenta</string>
+    <string name="NC_num_cuenta">Num. Cuenta</string>
+    <string name="NC_titular">Titular</string>
+    <string name="NC_cedula">Cédula</string>
+
+    <!-- Ventana Nueva Tarjeta -->
+    <string name="NT_titulo_ventana">Ventana nueva Tarjeta</string>
+    <string name="NT_tipo_tarjeta">Tipo de Tarjeta</string>
+    <string name="NT_num_tarjeta">Num. Tarjeta</string>
+    <string name="NT_nombre_tarjeta">Nombre de la tarjeta</string>
+    <string name="NT_fecha_expiracion">Fecha de expiración</string>
+    <string name="NT_cvv">CVV</string>
+
+    <!-- Botones comunes -->
+    <string name="global_aceptar">Aceptar</string>
+    <string name="global_cancelar">Cancelar</string>
+
+
+    <!-- Chat_Especifico -->
+    <!-- Título -->
+    <string name="CH_titulo_pantalla">Pantalla Chats Específicos</string>
+    <string name="CH_nombre_usuario">Pedrito</string>
+
+    <!-- Mensajes -->
+    <string name="CH_mensaje_ejemplo">Mensaje</string>
+
+    <!-- Entrada -->
+    <string name="CH_hint_mensaje">Mensaje</string>
+    <string name="CH_enviar_mensaje">Enviar</string>
+
+    <!-- Acciones -->
+    <string name="CH_icono_imagen_descripcion">Adjuntar imagen</string>
+    <string name="CH_icono_enviar_descripcion">Enviar mensaje</string>
+
+    <!-- Principal -->
+    <!-- Métricas -->
+    <string name="PP_favores_realizados">Favores realizados</string>
+    <string name="PP_reputacion">Reputación</string>
+    <string name="PP_texto_favores_realizados">3</string>
+    <string name="PP_texto_Reputacion">5</string>
+
+    <!-- Favor 1 -->
+    <string name="PP_titulo_favor_1">Cuidar conejo</string>
+    <string name="PP_descripcion_favor_1">Me iré por 3 días, alguien que vea a mi mascota.</string>
+    <string name="PP_precio_favor_1">$20</string>
+
+    <!-- Favor 2 -->
+    <string name="PP_titulo_favor_2">Recoger fruta</string>
+    <string name="PP_descripcion_favor_2">Mi árbol tiene mucha fruta, necesito ayuda para recogerla.</string>
+    <string name="PP_precio_favor_2">$8</string>
+
+    <!-- Favor 3 -->
+    <string name="PP_titulo_favor_3">Barrer vereda</string>
+    <string name="PP_descripcion_favor_3">Mi vereda está muy sucia, solo quiero que la barran.</string>
+    <string name="PP_precio_favor_3">$10</string>
+
+    <!-- Indicadores -->
+    <string name="PP_distancia_favor">A 1km</string>
+
+    <!-- Navegación inferior -->
+    <string name="PP_nav_inicio">Inicio</string>
+    <string name="PP_nav_favores">Favores</string>
+    <string name="PP_nav_chats">Chats</string>
+    <string name="PP_nav_ganancias">Ganancias</string>
+
+    <!-- Paginación -->
+    <string name="PP_anterior">&lt;&lt; Anterior</string>
+    <string name="PP_siguiente">Siguiente &gt;&gt;</string>
+
+    <!-- Favores -->
+    <!-- Estados -->
+    <string name="FA2_estado_disponible">Disponible</string>
+    <string name="FA2_estado_realizados">Realizados</string>
+
+    <!-- Favor genérico -->
+    <string name="FA2_distancia">A 1km</string>
+    <string name="FA2_titulo_favor">Título favor</string>
+    <string name="FA2_descripcion_favor">Descripción</string>
+    <string name="FA2_precio_favor">$8</string>
+
+    <!-- Botón -->
+    <string name="FA2_solicitar_favor">Solicitar Favor</string>
+
+    <!-- Chats -->
+    <string name="CH_filtro_realizados">Realizados</string>
+    <string name="CH_filtro_en_progreso">En Progreso</string>
+    <string name="CH_filtro_no_realizado">No realizado</string>
+
+    <!-- Chat resumen -->
+    <string name="CH2_nombre_usuario">Usuario</string>
+    <string name="CH2_mensaje_ejemplo">Mensaje</string>
+
+    <!-- retiro y recarga -->
+    <string name="GA_balance_actual">Balance Actual</string>
+
+    <!-- Retiro -->
+    <string name="GA_monto_final_retirar">Monto final a retirar:</string>
+    <string name="GA_cuenta_bancaria">Cuenta Bancaria</string>
+    <string name="GA_agregar_cuenta">Agregar cuenta:</string>
+    <string name="GA_cambiar">Cambiar</string>
+    <string name="GA_resumen_retiro">Resumen</string>
+    <string name="GA_monto_solicitado">Monto Solicitado:</string>
+    <string name="GA_total_retirar">Total a retirar:</string>
+
+    <!-- Recarga -->
+    <string name="GA_monto_recargar">Monto a recargar:</string>
+    <string name="GA_tarjeta_recargar">Tarjeta para recargar</string>
+    <string name="GA_agregar_nueva">Agregar nueva:</string>
+    <string name="GA_total_pagar">Total a pagar:</string>
+
+    <!-- Común -->
+    <string name="GA_comision">Comisión :</string>
+    <string name="visa_0262">Visa: ******0262</string>
+    <string name="_8">$8</string>
+    <string name="_200">200$</string>
+    <string name="_10">10$</string>
+
+    <!-- Ganancias -->
+    <string name="GA_retirar">Retirar</string>
+    <string name="GA_recargar">Recargar</string>
+    <string name="GA_actividad_realizada">Actividad Realizada</string>
+    <string name="GA_cantidad_ganada">Cantidad Ganada:</string>
+    <string name="GA_historial">Historial</string>
+
+    <!-- Actividades del historial -->
+    <string name="GA_historial_1">Pasear perro</string>
+    <string name="GA_historial_2">Lavar Vehículo</string>
+
+    <!-- Días -->
+    <string name="GA_dias_3">3 días</string>
+    <string name="GA_dias_5">5 días</string>
+
+    <string name="_5">+5</string>
+    <string name="_7">-7</string>
+
+</resources>
