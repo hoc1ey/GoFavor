@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="183dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
@@ -50,6 +50,7 @@
                 android:layout_marginTop="8dp"
                 android:gravity="center"
                 android:text="@string/app_name"
+                android:fontFamily="@font/fira_sans_extrabold_italic"
                 android:textColor="#FFFFFF"
                 android:textSize="48sp"
                 android:textStyle="bold" />
@@ -96,6 +97,7 @@
                         android:backgroundTint="#1CF580"
                         android:ems="10"
                         android:hint="@string/nombre"
+                        android:fontFamily="@font/open_sans"
                         android:inputType="text"
                         android:textColor="#1CF580"
                         android:textColorHint="#1CF580"
@@ -122,6 +124,7 @@
                         android:backgroundTint="#1CF580"
                         android:ems="10"
                         android:hint="@string/apellido"
+                        android:fontFamily="@font/open_sans"
                         android:inputType="text"
                         android:textColor="#1CF580"
                         android:textColorHint="#1CF580"
@@ -148,6 +151,7 @@
                         android:backgroundTint="#1CF580"
                         android:ems="10"
                         android:hint="@string/correo"
+                        android:fontFamily="@font/open_sans"
                         android:inputType="textEmailAddress"
                         android:textColor="#1CF580"
                         android:textColorHint="#1CF580"
@@ -174,6 +178,7 @@
                         android:backgroundTint="#1CF580"
                         android:ems="10"
                         android:hint="@string/cedula"
+                        android:fontFamily="@font/open_sans"
                         android:inputType="number"
                         android:textColor="#1CF580"
                         android:textColorHint="#1CF580"
@@ -221,7 +226,7 @@
                                 app:tint="#FFFFFFFF" />
 
                             <Button
-                                android:id="@+id/button7"
+                                android:id="@+id/buttonAtachDNI"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="10dp"
@@ -229,10 +234,11 @@
                                 android:layout_weight="1"
                                 android:backgroundTint="#1CF580"
                                 android:text="@string/adjuntar_cedula"
+                                android:fontFamily="@font/open_sans_bold"
                                 android:textAlignment="center"
                                 android:textAllCaps="false"
                                 android:textColor="@color/black"
-                                android:textSize="16sp"
+                                android:textSize="14sp"
                                 android:textStyle="bold" />
 
                         </LinearLayout>
@@ -261,7 +267,7 @@
                                 app:tint="#FFFFFFFF" />
 
                             <Button
-                                android:id="@+id/button8"
+                                android:id="@+id/buttonTakeSelfieDNI"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="10dp"
@@ -269,10 +275,11 @@
                                 android:layout_weight="1"
                                 android:backgroundTint="#1CF580"
                                 android:text="@string/tomar_selfie"
+                                android:fontFamily="@font/open_sans_bold"
                                 android:textAlignment="center"
                                 android:textAllCaps="false"
                                 android:textColor="@color/black"
-                                android:textSize="16sp"
+                                android:textSize="14sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -290,6 +297,7 @@
                         android:backgroundTint="#1CF580"
                         android:ems="10"
                         android:hint="@string/contrasena"
+                        android:fontFamily="@font/open_sans"
                         android:inputType="textPassword"
                         android:textColor="#1CF580"
                         android:textColorHint="#1CF580"
@@ -316,6 +324,7 @@
                         android:backgroundTint="#1CF580"
                         android:ems="10"
                         android:hint="@string/confirmar_contrasena"
+                        android:fontFamily="@font/open_sans"
                         android:inputType="textPassword"
                         android:textColor="#1CF580"
                         android:textColorHint="#1CF580"
@@ -335,7 +344,7 @@
 
         <!-- Botón principal -->
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -345,7 +354,7 @@
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <Space
             android:layout_width="match_parent"
