@@ -372,7 +372,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_home"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -395,7 +395,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_favors"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -418,7 +418,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_chats"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -441,7 +441,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_earnings"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"/>
 
                 <TextView
                     android:layout_width="match_parent"

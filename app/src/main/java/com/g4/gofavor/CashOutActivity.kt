@@ -3,6 +3,7 @@ package com.g4.gofavor
 import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
@@ -62,7 +63,7 @@ class CashOutActivity : AppCompatActivity() {
             )
 
             // Find the buttonReturn inside the dialog
-            val buttonCancel = dialog.findViewById<ImageView>(R.id.buttonCancel)
+            val buttonCancel = dialog.findViewById<Button>(R.id.buttonCancel)
 
             // Set the listener for the return button to dismiss the dialog
             buttonCancel.setOnClickListener {

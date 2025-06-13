@@ -3,6 +3,7 @@ package com.g4.gofavor
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -10,8 +11,8 @@ import androidx.core.view.WindowInsetsCompat
 
 class ProfileActivity : AppCompatActivity() {
 
-    private lateinit var buttonReturn: Button
-    private lateinit var buttonLogout: Button
+    private lateinit var buttonReturn: ImageView
+    private lateinit var buttonLogout: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

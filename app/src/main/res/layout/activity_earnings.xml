@@ -43,6 +43,7 @@
                 android:textStyle="italic" />
 
             <ImageView
+                android:id="@+id/buttonNotifications"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="end"
@@ -51,6 +52,7 @@
                 app:tint="@color/white" />
 
             <ImageView
+                android:id="@+id/buttonProfile"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="end"
