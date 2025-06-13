@@ -5,6 +5,214 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:fontFamily="@font/open_sans"
     tools:context=".SpecificChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/buttonReturn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:contentDescription="@string/CH_icono_enviar_descripcion"
+                android:src="@drawable/ic_return"
+                app:tint="@color/primary_green" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_gray"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="12dp"
+                    android:src="@drawable/avatar" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="@string/CH_nombre_usuario"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/CH_icono_enviar_descripcion"
+                    android:src="@drawable/ic_checkbox"
+                    app:tint="@color/primary_green" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/light_gray"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/primary_blue"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/light_gray"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/primary_blue"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/light_gray"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/primary_blue"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/light_gray"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/primary_blue"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/light_gray"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/primary_blue"
+                    android:padding="12dp"
+                    android:text="@string/CH_mensaje_ejemplo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/CH_icono_imagen_descripcion"
+                android:src="@drawable/ic_add_image"
+                app:tint="@color/white"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/primary_green"
+                android:hint="@string/CH_hint_mensaje"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/CH_icono_enviar_descripcion"
+                android:src="@drawable/ic_send"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
