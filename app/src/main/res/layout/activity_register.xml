@@ -40,7 +40,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:contentDescription="@string/logo_desc"
+                android:contentDescription="@string/logo_description"
                 app:srcCompat="@drawable/ic_gofavor_isotype" />
 
             <TextView

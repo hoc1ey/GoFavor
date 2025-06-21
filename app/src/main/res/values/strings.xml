@@ -6,12 +6,11 @@
     <string name="forgot_password"><u>Olvidé mi contraseña</u></string>
     <string name="login">Iniciar Sesión</string>
     <string name="register">Registrarse</string>
-    <string name="or">ó</string>
+    <string name="or">o</string>
     <string name="logo_description">Logotipo de GoFavor</string>
     <string name="icon_email">Ícono de correo</string>
     <string name="icon_password">Ícono de contraseña</string>
 
-    <string name="logo_desc">Logo de GoFavor</string>
     <string name="registro">Registro</string>
     <string name="registrar">Registrar Administrador</string>
     <string name="nombre">Nombre</string>
